@@ -1,0 +1,41 @@
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Build artifacts and dependencies
+/bin
+/vendor
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Local development and environment files
+.env
+*.db
+*.sqlite
+*.sqlite3
+/data
+
+# Temporary and log files
+/tmp
+*.log
+
+# IDE and editor files
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# Documentation and other non-essential files
+/docs
+/examples
+README.md
+LICENSE
