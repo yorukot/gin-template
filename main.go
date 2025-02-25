@@ -8,11 +8,12 @@ import (
 	"github.com/yorukot/go-template/app/routes"
 
 	// _ "github.com/yorukot/go-template/pkg/cache" uncomment this to use cache
-	// _ "github.com/yorukot/go-template/pkg/database" uncomment this to use database
+	// _ "github.com/yorukot/go-template/pkg/oauth" uncomment this to use oauth
+
+	_ "github.com/yorukot/go-template/pkg/database"
 	"github.com/yorukot/go-template/pkg/logger"
 	"github.com/yorukot/go-template/pkg/middleware"
 
-	// _ "github.com/yorukot/go-template/pkg/oauth" uncomment this to use oauth
 	_ "github.com/joho/godotenv/autoload"
 )
 
